@@ -6,6 +6,8 @@ header {
     display: flex;
     background-color: #01091c;
     text-align: center;
+    position: fixed;
+    width: 100%;
 }
 
 header div {
@@ -35,6 +37,7 @@ h1 {
     font-size: 2.5rem;
     color: white;
     text-align: center;
+    margin-top: 7%;
 }
 
 section p {
@@ -67,6 +70,11 @@ section p {
     display: flex;
 }
 
+.cont a {
+   text-decoration: none;
+   color: #b4bac2;
+   display: flex;
+}
 .cont {
     background-color: #01091c;
     display: flex;
@@ -143,5 +151,8 @@ section p {
     }
     header div {
         display: block;
+    }
+    h1 {
+        margin-top: 15%;
     }
 }
