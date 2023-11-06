@@ -1,0 +1,147 @@
+body {
+    background-color: #274472;
+}
+
+header {
+    display: flex;
+    background-color: #01091c;
+    text-align: center;
+}
+
+header div {
+    display: flex;
+}
+header a {
+    text-align: start;
+    margin: 2%;
+}
+.divHea a {
+    text-align: center;
+    text-decoration: none;
+    font-size: 3.5rem;
+    color: #b4bac2;
+}
+
+
+h3 {
+    text-align: center;
+}
+h4 {
+    text-align: center;
+    font-size: 1.5rem;
+    color: black;
+}
+h1 {
+    font-size: 2.5rem;
+    color: white;
+    text-align: center;
+}
+
+section p {
+    text-align: center;
+    color: white;
+    font-size: 1rem;
+    margin: 2%;
+}
+
+
+
+
+
+
+.logoHead {
+    width: 60px;
+    height: 60px;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+
+
+
+
+
+
+
+
+.contenedorCont {
+    display: flex;
+}
+
+.cont {
+    background-color: #01091c;
+    display: flex;
+    margin: 5%;
+    padding: 15px;
+    border-radius: 25px;
+    color: #b4bac2;
+}
+
+.cont img {
+    margin-right: 15px;
+}
+
+
+.cardNot {
+    width: 320px;
+    height: 320px;
+    border: 2px black solid;
+    border-radius: 25px;
+    margin-bottom: 10%;
+
+    margin: 2%;
+    box-shadow: 2px 5px 10px black;
+}
+
+.cardNot h2 {
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+.politica {
+    background-image: url(./img/politica-velnot.png);
+}
+.deporte{
+
+    background-image: url(./img/deporte-velnot.png);
+}
+.economia {
+
+    background-image: url(./img/economia-velnot.png);
+}
+
+.sociedad {
+
+    background-image: url(./img/sociedad-velnot.png);
+}
+.entretenimiento {
+
+    background-image: url(./img/entretenimiento-velnot.png);
+}
+
+.salud{
+    background-image: url(./img/salud-velnot.png);
+     
+}
+.internacional {
+    background-image: url(./img/internacional-velnot.png);
+
+}
+.tecnologia {
+
+    background-image: url(./img/tecnologia-velnot.png);
+}
+
+.cultura {
+
+    background-image: url(./img/cultura-velnot.png);
+}
+@media (max-width: 767px) {
+    .contenedorCont {
+        display: block;
+    }
+    header div {
+        display: block;
+    }
+}
